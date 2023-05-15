@@ -1,1 +1,2 @@
-# 2g2t
+# Estudo do Segundo Trimestre.
+Verônica Kitamura - n°32.
