@@ -13,7 +13,23 @@
     background-color: rgb(165, 192, 100);
 }
 .rodape{
-    background-color: rgba(110, 170, 223, 0.733);
+    background-color: rgba(199, 174, 33, 0.733);
     width: 100%;
     text-align: center;
+}
+.info-cinema{
+    width: 100%;
+    background-color: bisque;
+}
+.info-filmes{
+    width: 100%;
+    background-color: rgba(226, 142, 39, 0.801);
+}
+.info-retro{
+    width: 100%;
+    background-color: bisque;
+}
+.info-destaque{
+    width: 100%;
+    background-color: rgba(226, 142, 39, 0.801);
 }
