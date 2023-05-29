@@ -33,3 +33,24 @@
     width: 100%;
     background-color: rgba(226, 142, 39, 0.801);
 }
+.img-etilo{
+    width: 100%;
+}
+@media screen and (min-width: 768px){
+    .menu{
+        height: 120px;
+        background-color: white;
+    }
+    .conteudo{
+        display: flex;
+    }
+}
+@media screen and (min-width: 1028px){
+    .menu{
+        height: 2000px;
+        background-color: white;
+    }
+    .conteudo{
+        display: grid;
+    }
+}
