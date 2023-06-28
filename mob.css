@@ -4,9 +4,9 @@
 }
 
 :root{
-    --cor-fundo: blue;
-    --cor-fonte: yellow;
-    --cor-hover: green;
+    --cor-fundo: rgb(236, 110, 137);
+    --cor-fonte: rgb(0, 0, 0);
+    --cor-hover: rgb(171, 112, 247);
 }
 
 a{
@@ -89,29 +89,31 @@ ul{
 }
 .conteudo {
     width: 100%;
-    background-color: rgb(0, 238, 255);
+    background-color: rgb(0, 0, 0);
 }
 
+
+
 .rodape {
-    background-color: rgb(0, 255, 0);
+    background-color: rgb(236, 110, 137);
     width: 100%;
     text-align: center;
 }
 .info-cinema {
     width: 100%;
-    background-color: rgb(250, 138, 1);
+    background-color: #77B2E0;
 }
 .info-filme {
     width: 100%;
-    background-color: rgb(141, 110, 69);
+    background-color: #425DF5;
 }
 .info-filme-retro {
     width: 100%;
-    background-color: rgb(252, 140, 3);
+    background-color: #7E5AE0;
 }
 .info-destaque {
     width: 100%;
-    background-color: rgb(146, 109, 61);
+    background-color: #425DF5;
 }
 .img-estilo {
     width: 100%;
@@ -119,7 +121,7 @@ ul{
 @media screen and (mind-width: 768px) {
     .menu {
         height: 120px;
-        background-color: blue;
+        background-color: rgb(0, 132, 255);
     }
     .conteudo {
         display: flex;
@@ -128,7 +130,7 @@ ul{
 @media screen and (min-width: 1028px) {
     .menu {
         height: 200px;
-        background-color: aqua;
+        background-color: rgb(79, 114, 228);
     }
     .conteudo {
         display: grid;
