@@ -4,7 +4,7 @@
 }
 
 :root{
-    --cor-fundo: rgb(236, 110, 137);
+    --cor-fundo: rgb(255, 255, 255);
     --cor-fonte: rgb(0, 0, 0);
     --cor-hover: rgb(171, 112, 247);
 }
@@ -84,9 +84,28 @@ ul{
 .side-menu{
     display:none;
 }
+
+.side-menu:checked ~ nav{
+    max-height: 100%;
+}
+
+.side-menu:checked ~ .hamb .hamb-line::before{
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+.side-menu:checked ~ .hamb .hamb-line::after{
+    transform: rotate(45deg);
+    top: 0;
+}
+
+#logo{
+    width: 20%;
+}
 .menu a:hover{
     background-color: var(--cor-hover);
 }
+
 .conteudo {
     width: 100%;
     background-color: rgb(0, 0, 0);
@@ -109,7 +128,7 @@ ul{
 }
 .info-filme-retro {
     width: 100%;
-    background-color: #7E5AE0;
+    background-color: #77B2E0;
 }
 .info-destaque {
     width: 100%;
